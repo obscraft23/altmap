@@ -1,2 +1,2 @@
 # altmap
-A package for alpine climbers to handle GSI raw data
+A package for alpine climbers to handle GIS data
