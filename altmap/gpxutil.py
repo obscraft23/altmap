@@ -113,8 +113,8 @@ def searchPointdata(
 
     reslist = [d for d in temp
     if (
-        (~coordinate_search or ( (lat_min < float(d['lat'])) and (lat_max > float(d['lat'])) and (lon_min < float(d['lon'])) and (lon_max > float(d['lon'])) )) and
-        (~typeid_search or ( (d.get('types') !=None) and (typeid in [temptype.get('type_id') for temptype in d.get('types')]) ))
+        (not(coordinate_search) or ( (lat_min < float(d['lat'])) and (lat_max > float(d['lat'])) and (lon_min < float(d['lon'])) and (lon_max > float(d['lon'])) )) and
+        (not(typeid_search) or ( (d.get('types') !=None) and (typeid in [temptype.get('type_id') for temptype in d.get('types')]) ))
     )]
 
     return reslist
