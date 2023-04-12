@@ -17,7 +17,7 @@ setup(
 
     license='MIT',
 
-    install_requires=['numpy','tqdm','requests','gpxpy','ndjson','osgeo','scipy'],
+    install_requires=['numpy','tqdm','requests','gpxpy','ndjson','scipy'],
     author='obscraft23',
     author_email='obscraft23@gmail.com',
 
