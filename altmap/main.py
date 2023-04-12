@@ -1,2 +1,2 @@
-from calcutils import *
-from gpxutil import *
+from altmap.calcutils import *
+from altmap.gpxutil import *
