@@ -17,7 +17,15 @@ setup(
 
     license='MIT',
 
-    install_requires=['numpy','tqdm','requests','gpxpy','ndjson','scipy'],
+    install_requires=['numpy',
+                      'tqdm',
+                      'requests',
+                      'gpxpy',
+                      'ndjson',
+                      'scipy',
+                      'aiohttp',
+                      'japanize_matplotlib',
+                      'nest_asyncio'],
     author='obscraft23',
     author_email='obscraft23@gmail.com',
 
